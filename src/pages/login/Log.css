@@ -1,0 +1,232 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@500;600;800&display=swap'); 
+
+*{
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+
+}
+
+
+
+
+
+
+.hero{
+    height:100%;
+    width: 100%;
+    background-image: linear-gradient(to right,rgba(61, 63, 65, 0.597),rgba(162, 154, 246, 0.225)),url(loginimgs/image.jpg);
+    background-position: center;
+    background-size: cover;
+    position: absolute;
+    
+}
+
+
+
+.form-box{
+    max-width:460px;
+    height:500px;
+    position:relative;
+    margin-top:8% ;
+    margin-left: 850px;
+    overflow: hidden;
+    background-color:rgba(56, 121, 241, 0.642);
+    border-radius: 20px;
+   
+    
+}
+.button-box{
+    
+    margin-left:23% ;
+    margin-top: 10%;
+    position: absolute;
+    display: flex;
+    color: #080c17;
+    box-shadow: 0 0 20px 9px #ff61241f;
+    border-radius: 20px;
+    
+}
+.toggle-btn{
+    padding:10px 30px;
+    cursor: pointer;
+    background-color: transparent;
+    border:0;
+    outline:none;
+    position: relative;
+}
+#btn{
+    top: 0;
+    left: 0;
+    bottom: 20px;
+    position: absolute;
+    width: 120px;
+    height: 100%;
+    background: linear-gradient(to right,rgb(207, 220, 233),#aeadbb);
+    border-radius: 20px;
+    transition: 0.5s;
+}
+
+.input-group{
+    top:180px;
+    position:absolute;
+    width:280px;
+    transition:0.5s;
+    margin-left: 10%;
+}
+.input-group>:not(:first-child):not(.dropdown-menu):not(.valid-tooltip):not(.valid-feedback):not(.invalid-tooltip):not(.invalid-feedback) {
+    margin-left: calc(var(--bs-border-width) * -1);
+    border-top-left-radius: 10px;
+    border-bottom-left-radius: 10px;
+
+   
+   
+}
+.input-field{
+    width: 100%;
+    padding:10px 0;
+    margin:5px 0;
+    border-left: 0;
+    border-top: 0;
+    border-right: 0;
+    border-bottom: 1px solid rgb(70, 67, 67);
+    outline:none;
+    background-color: transparent;
+}
+.submit-btn{
+    width:80%;
+    padding:10px 30px;
+    cursor: pointer;
+    display: block;
+    margin: auto;
+    background:  linear-gradient(to right,rgb(207, 220, 233),#aeadbb);
+    border: 0.5px;
+    outline: none;
+    border-radius: 10px;
+   
+}
+
+.submit-btn:hover{
+    
+    background:  linear-gradient(to right,rgb(143, 199, 255),#46455b);
+    color:#fff;
+}
+.chech-box{
+    margin:30px 10px 30px 0;
+}
+span{
+    margin-top: 27px;
+    color:rgb(8, 1, 1);
+    font-size: 12px;
+    bottom:50px;
+}
+#login{
+    left:50px;
+
+}
+#register{
+    left:450px;
+}
+
+/*logo*/
+.hero .social-links{
+   
+    width: 60%;
+    margin-top: 25%;
+    margin-left: 20%;
+    text-align: center;
+    
+}
+.hero .social-links a{
+    display:inline-block;
+    height:40px;
+    width:40px;
+    background-color: rgba(225,225,225,0.2);
+    margin: 7px;
+    text-align: center;
+     line-height: 40px;
+     border-radius: 50%;
+     background:  linear-gradient(to right,rgb(207, 220, 233),#aeadbb);
+     transition: all 0.5s ease;
+}
+.hero .social-links a:hover{
+    color:#fff;
+    background:  linear-gradient(to right,rgb(143, 199, 255),#46455b);
+    transition: 0.3s;
+}
+
+
+@media(max-width:1362px){
+    .form-box{
+        max-width:460px;
+        height:500px;
+       
+        margin-top:8% ;
+        margin-left: 700px;
+        
+       
+        
+    }
+}
+
+@media(max-width:1176px){
+    .form-box{
+        max-width:460px;
+        height:500px;
+       
+        margin-top:8% ;
+        margin-left: 550px;
+        
+       
+        
+    }
+}
+@media(max-width:1026px){
+    .form-box{
+        max-width:460px;
+        height:500px;
+       
+        margin-top:8% ;
+        margin-left: 40%;
+        
+       
+        
+    }
+}
+
+@media(max-width:789px){
+    .form-box{
+        max-width:460px;
+        height:500px;
+       
+        margin-top:10% ;
+        margin-left: 30%;
+        
+       
+        
+    }
+}
+
+
+@media(max-width:674px){
+    .form-box{
+        max-width:460px;
+        height:500px;
+       
+        margin-top:10% ;
+        margin-left: 15%;
+        
+       
+        
+    }
+}
+
+@media(max-width:552px){
+    .form-box{
+        max-width:450px;
+        height:500px;
+       
+        margin-top:19%;
+        margin-left:5%;    
+    }
+}
